@@ -21,7 +21,6 @@
                 border-radius: 10px;
             }
     </style>
-    
 </head>
 
 <body>
@@ -36,26 +35,25 @@
             <h1 class="has-text-weight-bold is-size-3 has-text-left">STOPWATCH</h1>
         </div>
     </nav>
-    <div class="section">
-        <div class="container has-background-warning  has-text-centered">
-            <div class="container ">
-                <div class="buttons">
-                    <button class="button is-danger is-light is-large" id="start">Start</button>
-                    <button class="button is-danger is-light is-large" id="stop">Stop</button>
-                    <button class="button is-danger is-light is-large" id="reset">Reset</button>
-                  </div>
-
-                  <div class="card has-text-weight-bold is-size-2 is-centered">
-                    <p><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span></p>
-                  </div>
+    
+    <section class="section">
+        <div class="container has-background-warning">
+            <div class="columns is-centered">
+                <div class="column is-4">
+                    <div class="card has-text-weight-bold is-size-2 has-text-centered">
+                        <p><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span></p>
+                    </div>
+                </div>
             </div>
-            
-             
+            <div class="buttons has-addons is-centered">
+                <button class="button is-danger is-light is-large" id="start">Start</button>
+                <button class="button is-danger is-light is-large" id="stop">Stop</button>
+                <button class="button is-danger is-light is-large" id="reset">Reset</button>
+            </div>
         </div>
-    </div>
+    </section>
 
     <script src="script.js"></script>
-    
 </body>
 
 </html>
